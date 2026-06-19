@@ -1,0 +1,47 @@
+{
+  "name": "TypeMaster Pro - Typing Speed Test",
+  "short_name": "TypeMaster",
+  "description": "Free online typing speed test with WPM, accuracy tracking, and leaderboard by AI ToolCor",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#fdfaf3",
+  "theme_color": "#d4654a",
+  "lang": "en",
+  "categories": ["education", "productivity", "games"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' fill='%23d4654a' rx='30'/><text x='96' y='130' text-anchor='middle' font-size='110' fill='white'>⌨</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' fill='%23d4654a' rx='80'/><text x='256' y='360' text-anchor='middle' font-size='300' fill='white'>⌨</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Quick Test",
+      "short_name": "Test",
+      "description": "Start a typing test immediately",
+      "url": "/?mode=test"
+    },
+    {
+      "name": "Practice Mode",
+      "short_name": "Practice",
+      "description": "Practice without timer",
+      "url": "/?mode=practice"
+    },
+    {
+      "name": "Daily Challenge",
+      "short_name": "Daily",
+      "description": "Today's challenge",
+      "url": "/?mode=challenge"
+    }
+  ]
+}

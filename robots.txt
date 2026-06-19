@@ -1,0 +1,58 @@
+# robots.txt for TypeMaster Pro - AI ToolCor
+# https://typingspeed.aitoolcor.com/
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /api/
+
+# Allow important files
+Allow: /style.css
+Allow: /script.js
+Allow: /texts.js
+Allow: /manifest.json
+
+# Crawl delay (optional - in seconds)
+Crawl-delay: 1
+
+# Specific bots
+User-agent: Googlebot
+Allow: /
+Disallow: /admin/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /admin/
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# Block bad bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# Sitemap location
+Sitemap: https://typingspeed.aitoolcor.com/sitemap.xml
+
+# Host
+Host: https://typingspeed.aitoolcor.com
